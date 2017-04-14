@@ -122,6 +122,9 @@ body{ font-weight: 300}
 
 #news{background:url('images/bg_news.jpg') top center;background-size:cover}
 #structure{background:url('images/bg_structure.jpg') top center;background-size:cover}
+
+.page.single #structure{background:transparent !important;}
+
 .swiss #structure{background:url('/images/bg_structure-swiss.jpg') top center;background-size:cover}
 #contact{background:url('images/cf_map.jpg') center;}
 .swiss #contact{background:url('/images/cf_map-swiss.jpg') center;}

@@ -18,3 +18,5 @@ We aim to influence and progress the emerging commercial and legislative landsca
 The Foundation’s core mission is to “standardise, protect and promote” the Cardano Protocol technology.
 
 {% include block-features.html %}
+
+{% include block-structure.html %}
