@@ -1,18 +1,23 @@
 ---
-layout: page
+layout: page-sidebar
 title: Contact
 language: en
 permalink: /contact/
 defaulturl: /contact/
 slug: contact
+anchors:
+- tit: "Get involved / Contact us"
+- tit: "Newsletter Signup"
+- tit: "Social Media"
+- tit: "Github"
+- tit: "Event/MeetUP"
 ---
+## Get involved / Contact us
 
-Get involved/ Contact us
+## Newsletter Signup
 
-Newsletter Signup
+## Social Media
 
-Social Media
+## Github
 
-Github
-
-Event/MeetUP
+## Event/MeetUP

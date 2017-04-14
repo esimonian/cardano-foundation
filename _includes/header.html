@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <div class="lang_switch">
+        <div class="lang_switch none">
                 <a href="{{ site.baseurl }}{{ page.defaulturl }}" class="en" title="English">
                 <span class="none">English</span>
                 <img src="{{ site.baseurl }}/images/flags/en.png" width="19" height="14" alt="" />
@@ -81,6 +81,9 @@
     </section>
 
     {% else %}
+    {% if page.notitle %}
+    {% else %}
+    {% if page.layout != 'page-center' %}
 
     <section id="page-title">
       <div class="container">
@@ -92,6 +95,8 @@
       </div>
     </section>
 
+    {% endif %}
+    {% endif %}
     {% endif %}
 
   </header>

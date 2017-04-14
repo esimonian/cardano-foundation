@@ -1,0 +1,61 @@
+
+<section id="structure" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-24 col-md-24 text-center">
+        <div class="row">
+          <div class="col-lg-16 col-lg-offset-4 col-md-20 col-md-offset-2">
+
+            <h2 class="uppercase title">{{ site.data.i18n[page.language].partnership_structure }}</h2>
+            <hr class="sm" />
+
+            <div class="tree">
+                <div class="branch left"></div>
+                <img src="{{ '/images/cf_label.gif' | prepend: site.baseurl }}" width="178" height="52" alt="" />
+                <div class="branch right"></div>
+            </div>
+
+            <div class="row branches">
+
+              <div class="col-sm-9">
+                <img src="{{ '/images/ic_logo_2.gif' | prepend: site.baseurl }}" width="70" height="70" />
+                <h3>Cardano Gaming Group</h3>
+
+                <!--<p>{{ site.data.i18n[page.language].structure_gaming_desc }}</p>-->
+              </div>
+
+              <div class="col-sm-6">
+                <div class="branch"></div>
+                <br />
+                <img src="{{ '/images/ic_iohk.gif' | prepend: site.baseurl }}" width="125" height="90" />
+
+               <h3>Input Output</h3>
+                <!--<p>{{ site.data.i18n[page.language].structure_io_desc }}</p>-->
+              </div>
+
+              <div class="col-sm-9 col-attain">
+                <img src="{{ '/images/ic_shield.gif' | prepend: site.baseurl }}" width="70" height="70" />
+
+                <h3>Attain Corporation  {% if page.language == 'ja' %}<br>
+株式会社アテインコーポレーション
+          {% endif %}</h3>
+                <!--<p>{{ site.data.i18n[page.language].structure_attain_desc }}</p>-->
+
+
+
+
+
+
+              </div>
+            </div>
+
+            <br><br>
+            <p class="bigger light">{{ site.data.i18n[page.language].becoming_partner }}</p>
+            <a href="/#contact" class="btn btn-default btn-sm uppercase c_fff bg_trans">&nbsp; &nbsp; {{ site.data.i18n[page.language].contact_us }} &nbsp; &nbsp;</a><br><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
