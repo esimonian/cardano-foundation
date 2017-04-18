@@ -17,19 +17,23 @@ body{ font-weight: 300}
 .dpp ol{font-size: 77%;padding:0 0 0 13px}
 .dpp ol li{line-height: 1.2;margin:0 0 5px 0}
 
+
 .header .logo {padding:30px 0 0px 0;opacity:.7}
 .header .logo img{width:80px;height:auto}
 
+.navbar-toggle {border: 0}
 
 #policy_wrap{-webkit-transition: background .8s;-moz-transition: background .8s; -o-transition: background .8s; transition: background .8s;}
 #policy_wrap.flash{background:#FFF989;}
 
 
-@media (min-width:769px) {
+@media (min-width:768px) {
 .header .lang_switch{position:relative;z-index: 99;float:right;padding-right:5px}
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
 .header .lang_switch{float:none;text-align: right;padding-right:5px}
+  .header .logo {display: none}
+
 }
 
 
