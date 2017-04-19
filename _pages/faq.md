@@ -27,7 +27,7 @@ anchors:
 ---
 # Project overview
 
-## What is Cardano?
+## What is Cardano Project?
 
 ** **
 
