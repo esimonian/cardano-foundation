@@ -26,3 +26,9 @@ The Cardano Foundation’s core mission is to “standardise, protect and promot
 * Serving the wider blockchain community
   * We aim to influence and progress the emerging commercial and legislative landscape for blockchain technology and cryptocurrencies in general. Our strategy is to proactively approach government and regulatory bodies and to form strategic partnerships with businesses, enterprises and other open-source projects.
 
+{% include new-block-features.html %}
+
+# Council Members
+
+{% include new-block-team.html %}
+
