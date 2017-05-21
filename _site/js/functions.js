@@ -9,7 +9,7 @@ if(lowerie){
 
 
 ;(function($) {
-	
+
 	$(window).resize(function(){
 
 	});
@@ -31,5 +31,17 @@ if(lowerie){
 
 	});
 
+  var header = $(".scrolledtop");
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 160) {
+
+        header.removeClass('scrolledtop').addClass("scrolled");
+
+    } else {
+        header.removeClass("scrolled").addClass('scrolledtop');
+    }
+});
+
+
 })(jQuery);
-	

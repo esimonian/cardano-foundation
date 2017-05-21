@@ -6,9 +6,6 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-24 col-md-24 text-center">
-            <div class="logo">
-              <img src="/images/cardano-symbol.svg" alt="" />
-            </div>
 
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navhider" aria-expanded="false">
@@ -18,14 +15,16 @@
                 <span class="icon-bar"></span>
               </button>
                 <a class="navbar-brand" href="{{ site.baseurl }}{% if page.language != 'en' %}/{{ page.language }}{% endif %}/">
-                  <img class="" src="{{ '/images/cardano-logo.png' | prepend: site.baseurl }}" width="385" height="" alt="{{ site.title }}" />
+                 <div>
+                   <img src="/images/cardano-symbol-blue.svg" alt="logo" height="40" class="top-logo"> <img class="text-logo" src="{{ '/images/cardano-logo.png' | prepend: site.baseurl }}" width="385" height="" alt="{{ site.title }}" />
+                 </div>
+                 
                 </a>
             </div>
 
             <div id="navhider" class="collapse navbar-collapse ">
               {% include nav-main.html %}
             </div>
-            <hr class="margin0" />
           </div>
         </div>
 
@@ -53,6 +52,13 @@
           <div class="col-lg-24 col-md-24 text-center">
             <div class="row">
               <div class="col-lg-20 col-lg-offset-2 col-md-24">
+
+                <div class="logo">
+                  <img src="/images/cardano-symbol.svg" alt="" />
+                </div>
+
+
+
                 <h1>{{ site.data.i18n[page.language].home_of }}</h1>
 
                 {% if page.language == 'ja' %}
@@ -62,8 +68,8 @@
 
                 {% else %}
 
-                <h3>Blockchain Technology | CryptoCurrency Software</h3>
-                                     <h4 class="italic">...and Beyond</h4>
+                <h3>Blockchain | Cryptocurrency | Decentralised Applications</h3>
+                <!--<h4 class="italic">...and Beyond</h4>-->
                 {% endif %}
 
                 <!--<h2 class="">{{ site.data.i18n[page.language].home_desc }}</h2>-->
@@ -72,7 +78,6 @@
                 <br><br>
                 <!--<a href="http://attaincorp.co.jp/en/" class="btn btn-default btn-lga uppercase c_fff bg_trans">&nbsp; &nbsp; {{ site.data.i18n[page.language].read_more }} &nbsp; &nbsp;</a>-->
 
-                <br><br>
 
 
                 <!--{{ site.data.i18n[page.language].home_sale_only }}-->
@@ -82,25 +87,39 @@
           </div>
         </div>
       </div>
+
+              <div id="top" class="top banner text-center section">
+                <div class="wrap">
+                  <div class="container">
+
+                    {% if page.language == 'en' %}
+                    <h2>Cardano Testnet 0.3 is released</h2>
+                    <h4>Cardano is now in its public testing phase, click below to watch the tutorial,<br/>or go to the Testnet homepage (<a href="http://daedaluswallet.io">daedaluswallet.io</a>) to download.</h4>
+                    {% endif %}
+
+
+                    {% assign yt = 'jfv7Ha8cPps' %}
+                    {% if page.language == 'ja' %}
+                    {% assign yt = 'ecfPgjBdznk' %}
+                    {% endif %}
+
+                    <div id="comp" class="">
+                      <a href="https://www.youtube.com/watch?v={{yt}}" class="iohk_video_load_modal" rel="{{yt}}">
+                        <img src="/images/mac-play{% if page.language == 'ja' %}-ja{% endif %}.png" width="" alt="" />
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+                <div id="faq" class="anchoring"></div>
+              </div>
+
+
+
+
+
     </section>
 
-    {% else %}
-    {% if page.notitle %}
-    {% else %}
-    {% if page.layout != 'page-center' %}
-
-    <section id="page-title">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-24 col-md-24 text-left {% if page.slug == '404' %}text-center big{% endif %} c_fff">
-            <h1>{{ page.title }}</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    {% endif %}
-    {% endif %}
     {% endif %}
 
   </header>

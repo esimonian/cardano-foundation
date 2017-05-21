@@ -27,9 +27,7 @@ anchors:
 ---
 # Project overview
 
-## What is Cardano Project?
-
-** **
+## What is Cardano?
 
 Cardano is a next-generation blockchain platform, more advanced than any protocol yet developed, and the first to evolve out of a scientific philosophy. Built by a large international team of expert engineers and researchers, Cardano is founded upon peer-reviewed academic research.
 
@@ -38,8 +36,6 @@ The Cardano platform allows provably secure transfers of value whilst balancing 
 The platform is being built in stages, with intentional separation between settlement and computation. The value token ADA is the native cryptocurrency on the settlement layer expected to launch and be tradable on exchanges in May 2017. The computation layer is currently scheduled for launch in early 2018.
 
 ## Who is involved in the project and what are their roles?
-
-
 
 The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014.[ Input Output HK](https://iohk.io/projects/cardano/) (IOHK) was engaged to design and implement the Cardano protocol. In addition, the[ Cardano Foundation](https://cardanofoundation.org/), based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the[ Cardano Group](http://cardano.io/), based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the[ Attain Corporation](http://attaincorp.co.jp/en/), was given sole rights to distribute and perform the token presale.
 
@@ -179,6 +175,6 @@ Click here to see how you can follow us via newsletter/social media
 
 You can get involved by joining our new community!
 
-Follow us on twitter: [https://twitter.com/CardanoStiftung](https://twitter.com/CardanoStiftung) Facebook: [https://www.facebook.com/CardanoFoundation/](https://www.facebook.com/CardanoFoundation/)
-
-Or slack: [https://cardanofoundation.slack.com](https://cardanofoundation.slack.com)
+- Follow us on twitter: [twitter.com/CardanoStiftung](https://twitter.com/CardanoStiftung)
+- Facebook: [facebook.com/CardanoFoundation](https://www.facebook.com/CardanoFoundation/)
+- Or slack: [cardanofoundation.slack.com](https://cardanofoundation.slack.com)
