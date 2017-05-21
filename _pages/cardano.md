@@ -13,50 +13,65 @@ anchors:
 - tit: "The Wallet: Daedalus"
 - tit: "Cardano Testnet"
 ---
-## What is Cardano
 
-The Cardano project is a next generation blockchain designed to build a new decentralised economy, and democratize finance in emerging markets. The Cardano project is one of the most ambitious projects ever.
+## The Protocol:
 
-Blockchain has the potential to become a globally transformative technology, with global financial institutions spent over $1 billion dollars on blockchain technology in 2016 alone. However current solutions have been hampered by a number of critical issues: lack of regulatory oversight, experimental software development with unproven security, poor governance that stifles updates, and a lack of planning for the long term future of protocols.
+Bitcoin is changing the way we view money, value, payments and much more. It’s meteoric rise has grabbed the attention of both ordinary people and global institutions, with its open-source technology (blockchain) opening up a new world of opportunities and possibilities.
 
-The Cardano blockchain openly addresses the need for regulatory oversight whilst maintaining consumer privacy and protections through an innovative software architecture. Cardano features an innovative layered blockchain software stack that is flexible, scalable, and is being developed with the most rigorous academic and commercial software standards in the industry. Finally, Cardano is being built to last, with a democratic governance system that will let the project evolve over time, and fund itself indefinitely through a visionary treasury system.
+There are now over 300 different cryptocurrencies and the industry continues to see major blue chip companies, and governments experimenting and starting to implement blockchain technology, whether it be for efficiencies through ‘permissioned’ blockchains or through decentralized solutions.
 
-You can read an overview of the Cardano Project by Foundation Chairman Michael Parson’s here: (link from media and press release sections)
+Many of these ‘alternatives’ are little more than clones of a few key protocols, many lack the development teams, or technical knowledge to achieve their goals, many are rushed into launch before the being properly tested and many more lack the structure, or treasury model to build a sustainable solution.
 
-#### The Protocol:
+Blockchain technology is in its infancy and is constantly evolving, but already most blockchain solutions are based on protocols that are constantly being ‘patched’ (as the fiat banking system has been for 20 years!). 
 
-The Cardano protocol is a layered blockchain approach that you can read more about here(link to FAQ). The first layer offers similar functionality to bitcoin and is currently in its testing phase, prior to the actual rollout during May 2017. Further layers that add new functionality will be rolled out in the future.
+The Cardano protocol has been designed from the ‘ground-up’ and is a true step-change in blockchain’s evolution.
 
-You can participate in the test by downloading the Daedalus wallet, and following this youtube [tutorial](https://www.youtube.com/watch?v=jfv7Ha8cPps).
+Just as bitcoin reinvented money, value and payments, the Cardano protocol reinvents blockchain.
+
+## Technological Innovation
+
+Cardano is a next-generation blockchain platform. It is the first protocol to evolve from a scientific philosophy, meaning the code is more sophisticated, secure and the solution more advanced than other platforms. Our large team of expert engineers and researchers drawn from around the world started by deconstructing the concept of a cryptocurrency. Then, incorporating our ground-breaking Proof of Stake algorithm, Ouroboros, the IOHK team employed a first principles approach driven by peer reviewed academic research to build Cardano from the ground up.
+
+This uniquely collaborative effort steadily constructed the most precisely engineered cryptocurrency yet, a product that brings together such disciplines as distributed systems, mechanism design and cryptography. The result is the first cryptocurrency to be based in Haskell code, an industrial strength product that delivers the resilience necessary for mission-critical systems, in this case securing investment.
+
+Cardano’s multi-layer protocol performs advanced functions, and has at its foundation a settlement layer that is elegantly linked to a control layer. The settlement layer will have a unit of account, while the control layer will run next-generation smart contracts. The control layer will be programmed to recognise identity, assisting compliance and allowing blacklisting for instance.
+
+The protocol’s design is geared towards protecting privacy rights of users, while also taking into account the needs of regulators. In doing so, Cardano is the first protocol to balance these requirements in a nuanced and effective way, pioneering a new approach for cryptocurrencies. In addition, while the platform has been solidly composed, we also recognise the need for it to evolve and adapt to changing needs. Consequently we have designed a system that can be upgraded by way of soft forks, and are installing a treasury system that will ensure the sustainability of the protocol.
+
+Completely open source and patent-free, Cardano was built in a spirit of collaboration. And engineered for efficiency and scalability, the Cardano ecosystem is developing out into the most complete and most useful cryptocurrency ever constructed.
+
+## Conceptual Innovation
+
+* Privacy vs. Regulation
+  * The original Bitcoin blockchain was meant to be a way for individuals to transact directly and anonymously with each other outside the control of banks and governments. This guarantees privacy in financial dealings, a fundamental individual right. But full anonymity can be counterproductive, as can complete lack of regulatory oversight. Today most blockchain projects look to further either the aims of privacy or of regulation. To be effective globally, we think a next-generation blockchain must ‘square the circle’ by finding the right mix of individual privacy protection and provision for regulatory control.
+
+* Governance
+  * Public, decentralized blockchain projects like Bitcoin rely on crowd-based governance models. This allows for democratic control of the network by its participants, which is essential to building truly decentralised economies. But if not carefully designed, such governance can go awry. Both the Bitcoin and Ethereum communities have experienced devastating schisms on the question of how to upgrade their networks – in Ethereum’s case already causing a split. We believe that next-generation blockchains must have airtight governance models that allow the community to engage in productive debate and then democratically take clear and binding decisions.
+
+* Funding
+  * In the original Bitcoin blockchain the network is maintained and built out by the Bitcoin community itself. But large-scale networks designed to do much more than Bitcoin can will also have more sophisticated maintenance and development needs. To be successful, a next-generation blockchain should be able to adequately fund itself, both in terms of running costs and new investment.
 
 ## The Token: ADA Voucher
 
-Every blockchain project has a token of value commonly referred to as a cryptocurrency. ADA is the cryptocurrency on the Cardano blockchain. With ADA you may send money between friends, pay for a good or service, deposit funds on an exchange, or enter an application. Performing transfers on the settlement layer will require that you already own ADA or that you acquire ADA through an exchange. It will also be the native token to be used in applications built on the computation layer.
-
-The project was funded through an Initial Coin Offering (ICO), a typical crowdsale mechanism in the blockchain industry. The ICO, as well as the distribution of ADA vouchers purchased in the crowdfund was executed by Attain Corp. Upon launch of the settlement layer in May these vouchers may be redeemed for ADA which can be used on the settlement layer.
+Every blockchain project has a token of value commonly referred to as a cryptocurrency. ADA is the cryptocurrency on the Cardano blockchain. With ADA you may send value between friends, pay for a good or service, deposit funds on an exchange, or enter an application. Performing transfers on the settlement layer will require that you already own ADA, or that you acquire ADA through an exchange. It will also be the native token to be used in applications built on the computation layer.
+ 
+The project was funded through an Initial Coin Offering (ICO), a typical crowdsale mechanism in the blockchain industry. The ICO, as well as the distribution of ADA vouchers purchased in the crowdfund was executed by Attain Corp. Upon launch of the settlement layer in 2017, these vouchers may be redeemed for ADA which can be used on the settlement layer.
 
 ## The Wallet: Daedalus
 
-Each cryptocurrency requires a “wallet” where you can keep your ADA. Typically this wallet is a software application that you can install on your personal computer or smartphone.
+ 
+Each cryptocurrency requires a “wallet” to store ADA. Typically this wallet is a software application that you can install on your personal computer or smartphone. Daedalus is a wallet that was developed by IOHK specifically for the Cardano blockchain.
+
+Daedalus is a highly engineered wallet with advanced security features, protecting your assets with the most advanced cryptography. In the future Daedalus will not only support ADA, but other cryptocurrencies such as Bitcoin, Ethereum Classic and many more.
+ 
+In the spirit of open source blockchain projects, anyone is free to develop their own wallet.
 
 Daedalus is a wallet that was developed by IOHK specifically for the Cardano blockchain, and the test version is available to download [here](https://test.daedaluswallet.io/).
 
-It is a highly engineered wallet with advanced security features, protecting your assets with the strongest cryptography yet developed. In the future Daedalus will not only support ADA, but other cryptocurrencies such as Bitcoin, Ethereum Classic and many more.
 
-In the spirit of open source blockchain projects, anyone is free to develop their own wallet. As new wallets which support ADA become available, we will update the list.
+## Cardano Testnet
 
+Prior to launch we are releasing a number of Testnet versions so that we can fix any bugs or problems with Daedalus and the wider protocol.
 
-## The Future: Road Map
-
-With the benefit of a large and talented team of developers, the settlement layer and the computation layer are being worked on concurrently by two separate IOHK development teams.
-
-IOHK will release a functioning version of the settlement layer in May 2017. Once launched, you will be able to transact, trade, and purchase ADA (much like bitcoin) fully independent of the computation layer. Over the rest of 2017 there will be further work in building all the infrastructure up in a systematic and optimised way.
-
-The goal for the computation layer is to have a beta released by the first quarter of 2018. Once both settlement and computation layers are live, people who wish to develop on the platform will be able to setup a custom environment to build decentralised applications on the Cardano stack.
-
-In 2019 IOHK will be working on Cardano’s long term scalability and augmenting its capabilities. IOHK as developers have been contracted through 2020 to make sure Cardano is being maintained and address any slippage. The goal at this point will be a sustainable ecosystem that solves real problems and can serve as a innovative financial framework for the developing world.
-
-
-## How to get it: Exchanges
-
-The Cardano project has a dedicated team to reach out to exchanges that are interested in listing ADA. There has been considerable interest and we will update here when exchanges are confirmed.
+Testnet 0.3 is currently available for download and testing  [here](https://test.daedaluswallet.io/).
+You can participate in the test by downloading the Daedalus wallet, and following this youtube [tutorial](https://www.youtube.com/watch?v=jfv7Ha8cPps).
