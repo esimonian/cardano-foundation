@@ -28,12 +28,12 @@ anchors:
 <iframe src="/newsletter/{% if page.language != 'en' %}{{ page.language }}/{% endif %}" border="0" style="border:0;" allowtransparency="true" width="100%" height="90"></iframe>
 
 ## Community and Social
-
-- Twitter: **[twitter.com/CardanoStiftung](https://twitter.com/CardanoStiftung)**
-- Slack: **[cardano.herokuapp.com](https://cardano.herokuapp.com/)**
-- Reddit: **[reddit.com/r/cardano](https://reddit.com/r/cardano)**
-
-
+<div class="social_icons" id="social_icons_home">
+ <a class="twitter" href="https://twitter.com/CardanoStiftung" target="_blank"><em class="fa fa-twitter"></em></a>
+  <a class="slack" href="https://cardano.herokuapp.com" target="_blank"><em class="fa fa-slack"></em></a>
+  <a class="reddit" href="reddit.com/r/cardano" target="_blank"><em class="fa fa-reddit"></em></a>
+  <a class="email" href="mailto:info@cardanofoundation.org" target="_blank"><em class="fa fa-envelope"></em></a>
+</div>
 
 ## Old Newsletters
 

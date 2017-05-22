@@ -6204,4 +6204,62 @@ button.close {
 #footer {
   margin-top: 1em;
 }
+.icon-diagram {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
 
+.icon-divider {
+  border: dashed 1px #1A7589;
+  width: 10%;
+}
+
+.icon-set {
+  width: 25%;
+  padding: 0 .3em;
+}
+.icon-set img{
+  width: 100%;
+  height: auto;
+  max-width: 70px;
+}
+.icon-set .center-img {
+  max-width: 120px;
+}
+.white {
+  color: white;
+}
+.icon-img-wrap {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 900px) { 
+  .icon-set p{
+    font-size: 12px;
+  }
+  .icon-set h3{
+    font-size: 14px;
+  }
+  .icon-divider {
+  border: dashed 1px #1A7589;
+  width: 5%;
+}
+
+.icon-set {
+  width: 30%;
+}
+}
+
+@media (max-width: 490px) { 
+  .icon-set p{
+    font-size: 10px;
+  }
+  .icon-set h3{
+    font-size: 12px;
+  }
+}
