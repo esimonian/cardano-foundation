@@ -3732,11 +3732,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   padding: 10px 15px;
 }
+/*
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #000000;
 }
+*/
 .nav > li.disabled > a {
   color: #777777;
 }
@@ -3747,12 +3749,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
   cursor: not-allowed;
 }
+/*
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #000000;
   border-color: #ec1c24;
 }
+*/
 .nav .nav-divider {
   height: 1px;
   margin: 9px 0;
@@ -6182,5 +6186,22 @@ button.close {
       width: 7em;
   }
 
+}
+
+.download-btn {
+  letter-spacing: 0.6px;
+  border: 1px solid #aaa;
+  margin: 0 0 0 15px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.download-btn:hover {
+  background: black;
+}
+
+#footer {
+  margin-top: 1em;
 }
 

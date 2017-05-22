@@ -7,7 +7,9 @@ defaulturl: /press-media/
 slug: press-media
 anchors:
 - tit: "News Releases"
-- tit: "Social"
+- tit: "Technical Documentation"
+- tit: "Newsletter"
+- tit: "Community and Social"
 - tit: "Old Newsletters"
 ---
 ## News Releases
@@ -16,11 +18,22 @@ anchors:
 # [{{press.title}}]({{press.permalink}})
 {% endfor %}
 
-## Social
+## Technical Documentation
+
+- Cardano documentation: **[cardano-docs.iohk.io](https://cardano-docs.iohk.io)**
+- Github: **[github.com/input-output-hk/cardano-sl](https://github.com/input-output-hk/cardano-sl)**
+
+## Newsletter
+
+<iframe src="/newsletter/{% if page.language != 'en' %}{{ page.language }}/{% endif %}" border="0" style="border:0;" allowtransparency="true" width="100%" height="90"></iframe>
+
+## Community and Social
 
 - Twitter: **[twitter.com/CardanoStiftung](https://twitter.com/CardanoStiftung)**
 - Slack: **[cardano.herokuapp.com](https://cardano.herokuapp.com/)**
 - Reddit: **[reddit.com/r/cardano](https://reddit.com/r/cardano)**
+
+
 
 ## Old Newsletters
 

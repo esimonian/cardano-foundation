@@ -10,7 +10,12 @@ h3{font-size:105%;font-weight: 900;}
 h4{font-size:100%;font-weight: 900;}
 
 p{font-weight: 300;}
-
+#social_icons_home a{
+  width:30px;
+  height:30px;
+  line-height: 26px;
+  font-size: 100%;
+}
 .social_icons{margin:15px 0}
 .social_icons a{display:inline-block;background:#555;color:#fff;width:24px;height:24px;vertical-align:middle;
 -moz-border-radius: 30px;-webkit-border-radius: 30px;border-radius:30px; font-size: 160%;line-height:23px;margin:0 1px; text-align: center}
@@ -20,6 +25,10 @@ p{font-weight: 300;}
 .social_icons a.twitter{background:#5AAAFB}
 .social_icons a.gplus{background:#BB0F16}
 .social_icons a.facebook{background:#3A579D}
+.social_icons a.youtube{background:#E02B28}
+.social_icons a.slack{background:#42C299}
+.social_icons a.reddit{background:#FF7B55}
+.social_icons a.github{background:#24292E}
 
 .dpp h4{font-size: 100%; letter-spacing: 1px}
 .dpp h4 a{text-decoration: none}
@@ -56,7 +65,7 @@ p{font-weight: 300;}
 
 
 
-.navbar{background:rgba(0,0,0,0.4)}
+.navbar{background:rgba(0,0,0,0.7)}
 
 .navbar .nav a{font-weight: 400;opacity:.7;font-size: 14px}
 .navbar .nav a:focus,
@@ -79,7 +88,7 @@ p{font-weight: 300;}
 .navbar .navbar-brand .text-logo{width:200px;margin-top:7px;}
 }
 
-.header{background:url('/images/architecture.jpg') center center;background-size: cover;}
+.header{background:url('/images/architecture-2.jpg') center center;background-size: cover;}
 .swiss .header{background:url('/images/top-swiss.jpg') center center;background-size:cover;}
 @media (max-width:1280px) {
 .header{background-size:cover;}
@@ -118,7 +127,7 @@ p{font-weight: 300;}
 
 
 @media (max-width:1199px){
-#top .wrap{height:900px;padding:150px 0}
+#top .wrap{height:900px;}
 #comp {margin:150px 0 0 0;}
 
 }
@@ -160,9 +169,6 @@ p{font-weight: 300;}
 .active.left, .active.right {opacity: 0;z-index: 2;}
 
 
-
-
-
 .navbar-side {max-height: none;padding: 0;font-size:85%;margin:30px 0;}
 .navbar-side li+li{border-top:1px dotted #ddd}
 .navbar-side li a,
@@ -182,7 +188,8 @@ p{font-weight: 300;}
 .navbar-side ul ul{padding:0 0 0 10px;}
 
 @media (min-width:768px) {
-.navbar-side.scrolled {position: fixed;width: 230px;top:0;margin:0;}
+.navbar-side.scrolled {position: fixed;width: 230px;top:0;margin:0; overflow-y: scroll;
+max-height: 100%;}
 }
 @media (min-width:1200px) {
 .navbar-side.scrolled {width: 270px;}
