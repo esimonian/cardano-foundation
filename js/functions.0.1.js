@@ -28,7 +28,7 @@ if(lowerie){
 				},1000);
 			},500);
 		}
-
+  
 	});
 
   var header = $(".scrolledtop");

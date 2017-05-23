@@ -28,7 +28,7 @@ The Cardano Foundation’s core mission is to “standardise, protect and promot
 
 {% include new-block-features.html %}
 
-# Council Members
+# Foundation Staff
 
 {% include new-block-team.html %}
 

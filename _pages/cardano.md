@@ -42,13 +42,13 @@ Completely open source and patent-free, Cardano was built in a spirit of collabo
 
 ## Conceptual Innovation
 
-* Privacy vs. Regulation
+* PRIVACY VS. REGULATION
   * The original Bitcoin blockchain was meant to be a way for individuals to transact directly and anonymously with each other outside the control of banks and governments. This guarantees privacy in financial dealings, a fundamental individual right. But full anonymity can be counterproductive, as can complete lack of regulatory oversight. Today most blockchain projects look to further either the aims of privacy or of regulation. To be effective globally, we think a next-generation blockchain must ‘square the circle’ by finding the right mix of individual privacy protection and provision for regulatory control.
 
-* Governance
+* GOVERNANCE
   * Public, decentralized blockchain projects like Bitcoin rely on crowd-based governance models. This allows for democratic control of the network by its participants, which is essential to building truly decentralised economies. But if not carefully designed, such governance can go awry. Both the Bitcoin and Ethereum communities have experienced devastating schisms on the question of how to upgrade their networks – in Ethereum’s case already causing a split. We believe that next-generation blockchains must have airtight governance models that allow the community to engage in productive debate and then democratically take clear and binding decisions.
 
-* Funding
+* FUNDING
   * In the original Bitcoin blockchain the network is maintained and built out by the Bitcoin community itself. But large-scale networks designed to do much more than Bitcoin can will also have more sophisticated maintenance and development needs. To be successful, a next-generation blockchain should be able to adequately fund itself, both in terms of running costs and new investment.
 
 ## The Token: ADA Voucher

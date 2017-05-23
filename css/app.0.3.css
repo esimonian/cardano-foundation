@@ -6088,8 +6088,8 @@ button.close {
 /*circle */
 .circle-container {
     position: relative;
-    width: 24em;
-    height: 24em;
+    width: 18em;
+    height: 18em;
     padding: 2.8em;
     /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
     border: solid 1px #1A7589;
@@ -6101,7 +6101,7 @@ button.close {
     position: absolute;
     top: 39%;
     left: 40%;
-    width: 10em; 
+    width: 8em; 
     height: 4em;
     margin: -2em;
 }
@@ -6115,33 +6115,39 @@ button.close {
       position: absolute;
       top: 50%;
       left: 40%;
-      width: 10em;
+      width: 8em;
       height: 4em;
       margin: -2em;
 }
-
+.circle-img-background img {
+  max-width: 35px;
+  height: auto;
+}
 .circle-container h3 {
   text-align: center;
+}
+.circle-container p {
+  font-size: 14px;
 }
 .circle-img-background {
   background: white;
   padding: 1em 0;
 }
 
-.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
-.deg20 { transform: rotate(20deg) translate(12em) rotate(-20deg); }
-.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
-.deg60 { transform: rotate(60deg) translate(12em) rotate(-60deg); }
-.deg90 { transform: rotate(90deg) translate(12em) rotate(-90deg); }
-.deg120 { transform: rotate(120deg) translate(12em) rotate(-120deg); }
-.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
-.deg160 { transform: rotate(160deg) translate(12em) rotate(-160deg); }
-.deg180 { transform: translate(-12em); }
-.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
-.deg240 { transform: rotate(240deg) translate(12em) rotate(-240deg); }
-.deg300 { transform: rotate(300deg) translate(12em) rotate(-300deg); }
-.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
-.deg360{ transform: rotate(360deg) translate(12em) rotate(-360deg); }
+.deg0 { transform: translate(9em); } /* 9em = half the width of the wrapper */
+.deg20 { transform: rotate(20deg) translate(9em) rotate(-20deg); }
+.deg45 { transform: rotate(45deg) translate(9em) rotate(-45deg); }
+.deg60 { transform: rotate(60deg) translate(9em) rotate(-60deg); }
+.deg90 { transform: rotate(90deg) translate(9em) rotate(-90deg); }
+.deg120 { transform: rotate(120deg) translate(9em) rotate(-120deg); }
+.deg135 { transform: rotate(135deg) translate(9em) rotate(-135deg); }
+.deg160 { transform: rotate(160deg) translate(9em) rotate(-160deg); }
+.deg180 { transform: translate(-9em); }
+.deg220 { transform: rotate(220deg) translate(9em) rotate(-220deg); }
+.deg240 { transform: rotate(240deg) translate(9em) rotate(-240deg); }
+.deg300 { transform: rotate(300deg) translate(9em) rotate(-300deg); }
+.deg315 { transform: rotate(315deg) translate(9em) rotate(-315deg); }
+.deg360{ transform: rotate(360deg) translate(9em) rotate(-360deg); }
 
 @media (max-width: 650px) {
   .circle-container {
@@ -6157,7 +6163,7 @@ button.close {
   .deg135 { transform: rotate(135deg) translate(7em) rotate(-135deg); }
   .deg160 { transform: rotate(160deg) translate(7em) rotate(-160deg); }
   .deg180 { transform: translate(-7em); }
-  .deg225 { transform: rotate(225deg) translate(7em) rotate(-225deg); }
+  .deg220 { transform: rotate(220deg) translate(7em) rotate(-220deg); }
   .deg240 { transform: rotate(240deg) translate(7em) rotate(-240deg); }
   .deg300 { transform: rotate(300deg) translate(7em) rotate(-300deg); }
   .deg315 { transform: rotate(315deg) translate(7em) rotate(-315deg); }
@@ -6227,16 +6233,20 @@ button.close {
 .icon-set .center-img {
   max-width: 120px;
 }
-.white {
-  color: white;
-}
+
 .icon-img-wrap {
-  min-height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.icon-text-wrap {
+  margin: 2em 0 0 0!important;
+}
+
+.icon-text-wrap h3{
+  margin-top: 0!important;
+}
 
 @media (max-width: 900px) { 
   .icon-set p{
@@ -6253,6 +6263,9 @@ button.close {
 .icon-set {
   width: 30%;
 }
+
+
+
 }
 
 @media (max-width: 490px) { 

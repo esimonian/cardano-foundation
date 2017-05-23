@@ -17,8 +17,12 @@ p{font-weight: 300;}
   font-size: 100%;
 }
 .social_icons{margin:15px 0}
-.social_icons a{display:inline-block;background:#555;color:#fff;width:24px;height:24px;vertical-align:middle;
--moz-border-radius: 30px;-webkit-border-radius: 30px;border-radius:30px; font-size: 160%;line-height:23px;margin:0 1px; text-align: center}
+.social_icons a{
+  display:inline-block;background:#555;color:#fff;
+  width:30px;
+  height:30px;vertical-align:middle;
+-moz-border-radius: 30px;-webkit-border-radius: 30px;border-radius:30px; 
+font-size: 100%;line-height:26px;margin:0 1px; text-align: center}
 .social_icons a .fa{vertical-align:middle}
 
 .social_icons a.linkedin{background:#1887FF}
@@ -88,7 +92,7 @@ p{font-weight: 300;}
 .navbar .navbar-brand .text-logo{width:200px;margin-top:7px;}
 }
 
-.header{background:url('/images/architecture-2.jpg') center center;background-size: cover;}
+.header{background:url('/images/architecture.jpg') center center;background-size: cover;}
 .swiss .header{background:url('/images/top-swiss.jpg') center center;background-size:cover;}
 @media (max-width:1280px) {
 .header{background-size:cover;}
@@ -318,7 +322,7 @@ max-height: 100%;}
 .section{padding:3em 0 4em 0}
 #features.section{padding:4em 0 5em 0}
 
-#welcome{color:#fff;padding:5em 0 0 0}
+#welcome{color:#fff;padding:1em 0 0 0}
 
 }
 @media (min-width: 1200px) {
@@ -326,4 +330,8 @@ max-height: 100%;}
 #welcome h1{font-size: 350%}
 
 }
-#welcome h2{font-size: 160%;margin:0;}
+#welcome h2{font-size: 160%;}
+
+#welcome p {
+  text-align: left;
+}

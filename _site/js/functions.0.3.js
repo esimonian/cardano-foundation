@@ -21,6 +21,7 @@ function iohk_video_modal_update() {
 }
 
 ;(function($) {
+  
 
 	$(window).resize(function(){
 
@@ -59,6 +60,6 @@ $(window).scroll(function() {
         header.removeClass("scrolled").addClass('scrolledtop');
     }
 });
-
-
+jQuery('.icon-img-wrap').matchHeight();
+jQuery('.icon-text-wrap').matchHeight();
 })(jQuery);
