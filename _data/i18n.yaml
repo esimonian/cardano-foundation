@@ -46,7 +46,8 @@ en:
     structure_attain_desc: Exclusive Exchange Partner
     becoming_partner: Interested in Becoming a Partner?
     executive_team: "Chairman & Special Advisers"
-    special_adviser: Special Adviser
+    special_advisor: Special Advisor
+    executive_director: Executive Director
     stratergy_communications: Head of Strategy and Communications
     DATA_PROTECTION_POLICY: DATA PROTECTION POLICY
     read_more: Read more
@@ -99,7 +100,8 @@ ja:
     structure_attain_desc: 排他的取引パートナー
     becoming_partner: カルダノ財団のパートナーになりませんか？
     executive_team: 理事長、並びに特別顧問の紹介 
-    special_adviser: 特別顧問
+    special_advisor: 特別顧問
+    executive_director: Executive Director
     stratergy_communications: Head of Strategy and Communications
     DATA_PROTECTION_POLICY: データ保護ポリシー
     read_more: 続きを読む

@@ -332,6 +332,7 @@ max-height: 100%;}
 }
 #welcome h2{font-size: 160%;}
 
-#welcome p {
-  text-align: left;
+.post-img img{
+  max-width: 100%;
+  height: auto;
 }

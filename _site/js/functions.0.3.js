@@ -50,14 +50,21 @@ function iohk_video_modal_update() {
 	});
 
   var header = $(".scrolledtop");
+
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 140) {
 
         header.removeClass('scrolledtop').addClass("scrolled");
-
     } else {
         header.removeClass("scrolled").addClass('scrolledtop');
+    }
+
+    var footerHeight = $('#footer-wrap').height()
+    var scrollHeight = $(document).height();
+    var scrollPosition = $(window).height() + $(window).scrollTop();
+    if (scrollHeight - scrollPosition < footerHeight ) {
+       $('.navbar-side.scrolled').css("bottom", footerHeight)
     }
 });
 jQuery('.icon-img-wrap').matchHeight();

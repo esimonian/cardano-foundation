@@ -7,7 +7,7 @@ defaulturl: /foundation/
 slug: foundation
 anchors:
 - tit: "Areas of Focus"
-- tit: "Council Members"
+- tit: "Foundation Staff"
 ---
 
 The Cardano Foundation’s core mission is to “standardise, protect and promote” the Cardano Protocol technology.

@@ -14,7 +14,7 @@ anchors:
 - tit: "Cardano Testnet"
 ---
 
-## The Protocol:
+# The Protocol:
 
 Bitcoin is changing the way we view money, value, payments and much more. It’s meteoric rise has grabbed the attention of both ordinary people and global institutions, with its open-source technology (blockchain) opening up a new world of opportunities and possibilities.
 
@@ -40,7 +40,7 @@ The protocol’s design is geared towards protecting privacy rights of users, wh
 
 Completely open source and patent-free, Cardano was built in a spirit of collaboration. And engineered for efficiency and scalability, the Cardano ecosystem is developing out into the most complete and most useful cryptocurrency ever constructed.
 
-## Conceptual Innovation
+# Conceptual Innovation
 
 * PRIVACY VS. REGULATION
   * The original Bitcoin blockchain was meant to be a way for individuals to transact directly and anonymously with each other outside the control of banks and governments. This guarantees privacy in financial dealings, a fundamental individual right. But full anonymity can be counterproductive, as can complete lack of regulatory oversight. Today most blockchain projects look to further either the aims of privacy or of regulation. To be effective globally, we think a next-generation blockchain must ‘square the circle’ by finding the right mix of individual privacy protection and provision for regulatory control.
@@ -57,7 +57,7 @@ Every blockchain project has a token of value commonly referred to as a cryptocu
  
 The project was funded through an Initial Coin Offering (ICO), a typical crowdsale mechanism in the blockchain industry. The ICO, as well as the distribution of ADA vouchers purchased in the crowdfund was executed by Attain Corp. Upon launch of the settlement layer in 2017, these vouchers may be redeemed for ADA which can be used on the settlement layer.
 
-## The Wallet: Daedalus
+# The Wallet: Daedalus
 
  
 Each cryptocurrency requires a “wallet” to store ADA. Typically this wallet is a software application that you can install on your personal computer or smartphone. Daedalus is a wallet that was developed by IOHK specifically for the Cardano blockchain.
@@ -69,7 +69,7 @@ In the spirit of open source blockchain projects, anyone is free to develop thei
 Daedalus is a wallet that was developed by IOHK specifically for the Cardano blockchain, and the test version is available to download [here](https://test.daedaluswallet.io/).
 
 
-## Cardano Testnet
+# Cardano Testnet
 
 Prior to launch we are releasing a number of Testnet versions so that we can fix any bugs or problems with Daedalus and the wider protocol.
 

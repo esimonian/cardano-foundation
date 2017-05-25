@@ -10,13 +10,13 @@ anchors:
 - tit: "Technical Documentation"
 - tit: "Old Newsletters"
 ---
-## News Releases
+# News Releases
 
 {% for press in site.posts %}
 # [{{press.title}}]({{press.permalink}})
 {% endfor %}
 
-## Technical Documentation
+# Technical Documentation
 
 - Cardano documentation: **[cardano-docs.iohk.io](https://cardano-docs.iohk.io)**
 - Github: **[github.com/input-output-hk/cardano-sl](https://github.com/input-output-hk/cardano-sl)**
@@ -35,6 +35,6 @@ anchors:
 </div>
 -->
 
-## Old Newsletters
+# Old Newsletters
 
 <script language="javascript" src="//cardanofoundation.us12.list-manage.com/generate-js/?u=b5863ecf4cd79d93ef3aed2cf&fid=13013&show=10" type="text/javascript"></script>

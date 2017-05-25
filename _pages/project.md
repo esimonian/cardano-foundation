@@ -18,7 +18,7 @@ anchors:
 ---
 # Project overview
 
-The Cardano project is developing a next generation blockchain technology designed to build a new decentralised economy, and democratize finance in emerging markets. Cardano will allow decentralised applications and contracts will be built and executed, in a low-cost, secure and scalable way.
+The Cardano project is developing a next generation blockchain technology designed to build a new decentralised economy, and democratize finance in emerging markets. Cardano will allow decentralised applications and contracts to be built and executed, in a low-cost, secure and scalable way.
 
 Blockchain has the potential to become a globally transformative technology, with global financial institutions spending over $1 billion dollars on blockchain technology in 2016 alone. However current solutions have been hampered by a number of critical issues: lack of regulatory oversight, experimental software development with unproven security, poor governance that stifles updates, and a lack of planning for the long term future of protocols.
 
@@ -31,9 +31,6 @@ Cardano is structured with a democratic governance system that will let the proj
 # Project Stakeholders
 
 {% include new-block-structure.html %}
- 
-The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014.  [Input Output HK (IOHK)](https://iohk.io/projects/cardano/) was engaged to design and implement the Cardano protocol. In addition, the [Cardano Foundation](https://cardanofoundation.org/), based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the [CGG](http://cardano.io/), based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the [Attain Corporation](http://attaincorp.co.jp/en/), was given sole rights to distribute and perform the token presale.
-## Who is involved in the project and what are their roles?
 
 The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014.[ Input Output HK](https://iohk.io/projects/cardano/) (IOHK) was engaged to design and implement the Cardano protocol. In addition, the[ Cardano Foundation](https://cardanofoundation.org/), based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the[ Cardano Group](http://cardano.io/), based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the[ Attain Corporation](http://attaincorp.co.jp/en/), was given sole rights to distribute and perform the token presale.
 

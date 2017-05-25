@@ -26,8 +26,6 @@ anchors:
     - tit: Built for the long term
     - tit: Can I see the code?
     - tit: What is the relationship between ADA and the Cardano platform?
-    - tit: How was the project funded? (not for upload this release)
-    - tit: What’s the monetary supply of ADA? (Is this for upload?)
     - tit: Block rewards
     - tit: Cardano Treasury
     - tit: When will all the official information about ADA be released to the public?
@@ -145,14 +143,6 @@ Exchange on a blockchain platform requires the use of a cryptographic value toke
 
 *The ADA cryptocurrency is a key feature of the Cardano platform. Performing transfers of value on the settlement layer will require the ADA token, and it will also be the cryptocurrency used for applications built on the computation layer.*
 
-### How was the project funded? (not for upload this release)
-
-The project was funded through an Initial Coin Offering (ICO), a typical crowdsale mechanism in the blockchain industry. The ICO, as well as the distribution of ADA purchased in the crowdfund executed by Attain has provided the resources for the ongoing development work. Whilst other blockchain projects however have chosen to crowdfund without any Know Your Customer (KYC), or Anti Money Laundering (AML) checks, we are the first blockchain project to distribute its tokens with good faith compliance standards including KYC/AML on more than 10,000 participants, and to thoroughly audit the entire sale process.
-
-### What’s the monetary supply of ADA? (Is this for upload?)
-
-The[ total supply of ADA](https://cardano-docs.iohk.io/cardano/monetary-policy/) will never exceed 45,000,000,000. The total amount of ADA sold during the ICO will be determined once the vending process ends, but currently this is estimated to be  about 26,000,000,000 ADA. In order to ensure longevity of the protocol and ecosystem, an amount equal to 20% of the pre-sale ADA ~5,200,000,000 ADA will be generated and distributed among the three entities in the Cardano ecosystem. Block rewards will begin in the Cardano blockchain after 20 epochs (approximately 3.5 months) after the launch of the cryptocurrency.
-
 ### Block rewards
 
 The remainder of ADA (~14,800,000,000) will be issued on the following schedule:
@@ -187,6 +177,14 @@ Click here to see how you can follow us via newsletter/social media
 
 You can get involved by joining our new community!
 
-Follow us on twitter: [https://twitter.com/CardanoStiftung](https://twitter.com/CardanoStiftung) Facebook: [https://www.facebook.com/CardanoFoundation/](https://www.facebook.com/CardanoFoundation/)
+Follow us on twitter: [https://twitter.com/CardanoStiftung](https://twitter.com/CardanoStiftung)
+
+Facebook: [https://www.facebook.com/CardanoFoundation/](https://www.facebook.com/CardanoFoundation/)
 
 Or slack: [https://cardanofoundation.slack.com](https://cardanofoundation.slack.com)
+
+Reddit: [https://reddit.com/r/cardano](https://reddit.com/r/cardano)
+
+Github: [https://github.com/input-output-hk/cardano-sl](https://github.com/input-output-hk/cardano-sl)
+
+Youtube: [https://www.youtube.com/channel/UCbQ9vGfezru1YRI1zDCtTGg](https://www.youtube.com/channel/UCbQ9vGfezru1YRI1zDCtTGg)
