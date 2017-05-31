@@ -20,11 +20,8 @@ layout: default
           {{ page.content }}
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 rightcol post-side">
-        <h2>{{page.author}}</h2>
-
-      </div>
-
+      {% assign author = site.data.authors[page.author] %}
+      {% include blog-side.html %}
   </div>
 </div>
 

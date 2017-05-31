@@ -7,13 +7,21 @@ layout: blog
 <div class="container">
   <div class="row">
     {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
       <div class="blogpost col-lg-18 col-md-18 col-sm-18">
         <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
         <h2>{{post.subtitle}}</h2>
         <div class="meta clear">
             <div class="date inline-block">
-            <span class=""><em class="fa fa-clock-o"></em> {{post.date | date: "%B %d, %Y"}}</span>
+              <span class="">
+              <em class="fa fa-clock-o"></em> 
+              {{post.date | date: "%B %d, %Y"}}
+            </span>
             </div> 
+            <div class="date inline-block">
+              <span class=""><em class="fa fa-user"></em> {{author.name}}
+              </span>
+            </div>
         </div>
         <div class="post-img">
           <img src="/images/{{post.image}}" alt="">
@@ -23,10 +31,8 @@ layout: blog
         </div>
         <hr>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 rightcol post-side">
-        <h2>{{post.author}}</h2>
-
-      </div>
+      
+      {% include blog-side.html%}
 
 
     {% endfor %}
