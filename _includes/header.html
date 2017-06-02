@@ -14,7 +14,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="{{ site.baseurl }}{% if page.language != 'en' %}/{{ page.language }}{% endif %}/">
+                <a class="navbar-brand" href="{{ site.baseurl }}{% if page.language != 'en' %}{{ page.language }}{% endif %}/">
                  <div>
                    <img src="/images/cardano-symbol-blue.svg" alt="logo" height="40" class="top-logo"> <img class="text-logo" src="{{ '/images/cardano-logo.png' | prepend: site.baseurl }}" width="385" height="" alt="{{ site.title }}" />
                  </div>
