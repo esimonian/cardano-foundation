@@ -23,7 +23,10 @@ layout: default
       {% assign author = site.data.authors[page.author] %}
       {% include blog-side.html %}
   </div>
-  {% include disqus.html%}
+  <div class="container">
+    {% include disqus.html%}
+  </div>
+  
 </div>
 
 </article>
